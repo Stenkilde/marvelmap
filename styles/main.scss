@@ -1,0 +1,11 @@
+@import "../bower_components/foundation/scss/foundation.scss";
+@import "layouts/map";
+
+body {
+}
+
+.fluid-row {
+	@include grid-row();
+	padding-top: 45px;
+	max-width: 100%;
+}
